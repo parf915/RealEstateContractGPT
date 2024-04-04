@@ -1,0 +1,17 @@
+# Defining the content for the requirements.txt file
+requirements_content = """
+openai
+PyMuPDF==1.18.19
+Pillow==8.3.2
+pytesseract==0.3.8
+"""
+
+# Specifying the file path for the requirements.txt file
+requirements_file_path = "/mnt/data/requirements.txt"
+
+# Writing the requirements to the file
+with open(requirements_file_path, "w") as file:
+    file.write(requirements_content)
+
+requirements_file_path
+	
